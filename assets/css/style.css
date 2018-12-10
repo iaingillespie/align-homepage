@@ -26,6 +26,18 @@ body {
     text-transform: none
 }
 
+#caresimg{
+    width: 80%;
+    height: auto;
+}
+
+#etfimage{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+
 nav {
   position: fixed;
   left: 0;
@@ -76,12 +88,12 @@ nav.navbar.shrink {
 
 @media (max-width: 1000px) { 
     #caresimg{
-         width: 800px;
+         width: 80%;
          height: auto;
      }
  
      #etfimage{
-         width: 800px;
+         width: 80%;
          height: auto;
          margin: auto;
  
@@ -92,12 +104,12 @@ nav.navbar.shrink {
 
 @media (max-width: 767px) { 
    #caresimg{
-        width: 550px;
+        width: 80%;
         height: auto;
     }
 
     #etfimage{
-        width: 550px;
+        width: 80%;
         height: auto;
         margin: auto;
 
@@ -111,12 +123,12 @@ nav.navbar.shrink {
 
 @media (max-width: 760px) { 
     #caresimg{
-         width: 550px;
+         width: 80%;
          height: auto;
      }
  
      #etfimage{
-         width: 550px;
+         width: 80%;
          height: auto;
          margin: auto;
  
@@ -131,11 +143,11 @@ nav.navbar.shrink {
 
 @media (max-width: 375px) { 
     #caresimg{
-        width: 275px;
+        width: 80%;
         height: auto;
     }
     #etfimage{
-        width: 275px;
+        width: 80%;
         height: auto;
         margin: auto;
     }
@@ -144,11 +156,11 @@ nav.navbar.shrink {
 
 @media (max-width: 370px) { 
     #caresimg{
-        width: 275px;   
+        width: 80%;   
         height: auto;
     }
     #etfimage{
-        width: 275px;
+        width: 80%;
         height: auto;
         margin: auto;
     }
@@ -157,11 +169,11 @@ nav.navbar.shrink {
 
 @media (max-width: 320px) { 
     #caresimg{
-        width: 225px;
+        width: 80%;
         height: auto;
     }
     #etfimage{
-        width: 225px;
+        width: 80%;
         height: auto;
         margin: auto;
 
