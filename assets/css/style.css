@@ -109,10 +109,42 @@ nav.navbar.shrink {
 
 }
 
+@media (max-width: 760px) { 
+    #caresimg{
+         width: 550px;
+         height: auto;
+     }
+ 
+     #etfimage{
+         width: 550px;
+         height: auto;
+         margin: auto;
+ 
+     }
+ 
+     #logotop{
+          margin-top: 100px;
+     }
+ 
+ }
+
 
 @media (max-width: 375px) { 
     #caresimg{
         width: 275px;
+        height: auto;
+    }
+    #etfimage{
+        width: 275px;
+        height: auto;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 370px) { 
+    #caresimg{
+        width: 275px;   
         height: auto;
     }
     #etfimage{
