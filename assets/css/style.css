@@ -110,16 +110,6 @@ nav.navbar.shrink {
 }
 
 
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: rgb(205, 52, 71);
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: red;
-  text-decoration: none;
-}
-
-
 
 @media (min-width: 992px) {
   #mainNav {
@@ -299,11 +289,6 @@ header.masthead .intro-text .intro-heading {
 
 
 
-/* Font Awesome Icons */
- .fa-stack-2x {
-  
-  color: rgb(205, 52, 71)!important;
-}
 
 #about {
  background-color:#eaf7f7 !important;
@@ -344,17 +329,6 @@ header.masthead .intro-text .intro-heading {
 .abouttext{
     text-transform: none;
     text-align: left;
-
-    /* font-size: 28px;
-    line-height: 50px;
-    text-align: left;
-    font-weight: 300;
-    font-family: "Azo Sans", sans-serif;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */ */
 }
 
 
@@ -382,8 +356,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #1ae7e7
 }
 
-
-
 /* FOOTER */
 footer {
   margin-top: 2em;
@@ -392,7 +364,6 @@ footer {
   
   }
   
-
 .terms {
   color:black;
 }
