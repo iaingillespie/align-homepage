@@ -1,0 +1,398 @@
+
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: none;
+}
+
+#platfromtext{
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+.etfschart{
+}
+
+.lowcase{
+    text-transform: none
+}
+
+#ouretfs{
+    text-transform: none
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/* NAVBAR */
+.navbar {
+  background-color: #1ae7e7;
+  color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.4s;
+  z-index: 500;
+}
+
+/* Brand */
+.navbar-brand {
+ font-size: 30px;
+  color: black!important;
+  
+  
+}
+
+/* SHRINKS NAVBAR */
+nav.navbar.shrink {
+/* background-color: #90e7e7 !important; */
+   
+    margin: 0px 15px 8px 0;
+    padding: 4px 5px; 
+  
+}
+/* Responsive background color */
+@media (max-width: 999px) {
+  nav.navbar {
+    background-color:#1ae7e7;
+      
+        margin: 0px 15px 8px 0;
+        padding: 4px 5px; 
+      
+    }
+}
+
+
+/* Changes color when hovering brand */
+.navbar-brand:hover {
+ 
+  /* color: rgb(255, 255, 255)!important; */
+  
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  /* right: 0; */
+  /* padding: 13px; */
+  text-transform: uppercase;
+ 
+  /* border: 0; */
+  background-color: rgb(205, 52, 71);
+}
+
+
+/* Nav color */
+.nav-link {
+  color: #182f46!important;
+}
+
+/* Nav link hover color */
+.nav-link:hover {
+  color: rgb(241, 242, 243)!important;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  /* REMOVES DOTS FORM LIST */
+  list-style: none;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgb(205, 52, 71);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+
+
+/* WELCOME */
+/* Header  */
+header.masthead {
+  text-align: center;
+  color: #182f46;
+  background-image:  grayscale(100%); 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  /* font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  /* font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+}
+/* Heading background */
+
+
+/* SignUp now button */
+#mainButton {
+  width: 80%;
+  min-width: 252px;
+    min-height: 54px;
+    display: inline-block;
+    margin: 24px 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    margin-left: 50px;
+    letter-spacing: 3px;
+    font-family: "Azo Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    background-color: #0d122b;
+    border: solid 2px #0d122b;
+    color: #ffffff;
+    display: block;
+    min-width: 225px;
+    /* padding: 10px 15px; */
+    border-radius: 0;
+    box-sizing: inherit;
+}
+
+#vidioButton{
+    float: right;
+    width: 80%;
+    min-width: 252px;
+      min-height: 54px;
+      display: inline-block;
+      margin: 24px 20px 0 0;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 1rem 3rem;
+      margin-right: 50px;
+      letter-spacing: 3px;
+      font-family: "Azo Sans", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1.7px;
+      background-color: #0d122b;
+      border: solid 2px #0d122b;
+      color: #ffffff;
+      display: block;
+      min-width: 225px;
+      /* padding: 10px 15px; */
+      border-radius: 0;
+      box-sizing: inherit;
+}
+
+#signupbutton{
+    width: 200px;
+    min-width: 252px;
+    min-height: 54px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    letter-spacing: 3px;
+    font-family: "Azo Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    background-color: #0d122b;
+    border: solid 2px #0d122b;
+    color: #ffffff;
+    display: block;
+    min-width: 225px;
+    /* padding: 10px 15px; */
+    border-radius: 0;
+    box-sizing: inherit;
+}
+
+
+/* Responsive Welcome */
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    /* font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    /* font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  }
+}
+
+/* Section headings positioning */
+.section-heading {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+/* Font Awesome Icons */
+ .fa-stack-2x {
+  
+  color: rgb(205, 52, 71)!important;
+}
+
+#about {
+ background-color:#eaf7f7 !important;
+}
+
+#platform {
+    background-color:#ffffff !important;
+
+}
+
+
+/* TEAM */
+
+#team {
+  background-color:#eaf7f7!important;
+}
+/* TEAM IMG */
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;}
+  
+.team-member > h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+.team-member > img{
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.team-member > p { 
+  margin-top:0;
+}
+
+.abouttext{
+    text-transform: none;
+    text-align: left;
+
+    /* font-size: 28px;
+    line-height: 50px;
+    text-align: left;
+    font-weight: 300;
+    font-family: "Azo Sans", sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */ */
+}
+
+
+/* Social Buttons */
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #1ae7e7
+}
+
+
+
+/* FOOTER */
+footer {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+  
+
+.terms {
+  color:black;
+}
