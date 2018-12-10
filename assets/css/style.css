@@ -26,17 +26,17 @@ body {
     text-transform: none
 }
 
-#caresimg{
-    width: 80%;
-    height: auto;
-}
-
-#etfimage{
-    width: 80%;
-    height: auto;
-    margin: auto;
-
-}
+ #caresimg{
+         width: 80%;
+         height: auto;
+     }
+ 
+     #etfimage{
+         width: 100%;
+         height: auto;
+         margin: auto;
+ 
+     }
 
 nav {
   position: fixed;
@@ -93,7 +93,7 @@ nav.navbar.shrink {
      }
  
      #etfimage{
-         width: 80%;
+         width: 100%;
          height: auto;
          margin: auto;
  
@@ -109,7 +109,7 @@ nav.navbar.shrink {
     }
 
     #etfimage{
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
 
@@ -123,7 +123,7 @@ nav.navbar.shrink {
 
 @media (max-width: 760px) { 
     #caresimg{
-         width: 80%;
+         width: 100%;
          height: auto;
      }
  
@@ -147,7 +147,7 @@ nav.navbar.shrink {
         height: auto;
     }
     #etfimage{
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -160,7 +160,7 @@ nav.navbar.shrink {
         height: auto;
     }
     #etfimage{
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -173,7 +173,7 @@ nav.navbar.shrink {
         height: auto;
     }
     #etfimage{
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
 
