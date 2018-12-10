@@ -71,6 +71,70 @@ nav.navbar.shrink {
     }
 }
 
+/* Media Queries for Moble Responsive Images */
+
+
+@media (max-width: 1000px) { 
+    #caresimg{
+         width: 800px;
+         height: auto;
+     }
+ 
+     #etfimage{
+         width: 800px;
+         height: auto;
+         margin: auto;
+ 
+     }
+ 
+ }
+
+
+@media (max-width: 767px) { 
+   #caresimg{
+        width: 550px;
+        height: auto;
+    }
+
+    #etfimage{
+        width: 550px;
+        height: auto;
+        margin: auto;
+
+    }
+
+    #logotop{
+         margin-top: 100px;
+    }
+
+}
+
+
+@media (max-width: 375px) { 
+    #caresimg{
+        width: 275px;
+        height: auto;
+    }
+    #etfimage{
+        width: 275px;
+        height: auto;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 320px) { 
+    #caresimg{
+        width: 225px;
+        height: auto;
+    }
+    #etfimage{
+        width: 225px;
+        height: auto;
+        margin: auto;
+
+    }
+}
 
 /* Changes color when hovering brand */
 .navbar-brand:hover {
@@ -175,6 +239,10 @@ header.masthead .intro-text .intro-heading {
 }
 /* Heading background */
 
+#buttonwrapper{
+        margin-left: 50px;
+
+}
 
 /* SignUp now button */
 #mainButton {
@@ -186,7 +254,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 12px;
     font-weight: 700;
     padding: 1rem 3rem;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     letter-spacing: 3px;
     font-family: "Azo Sans", sans-serif;
     font-size: 12px;
@@ -205,7 +273,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #vidioButton{
-    float: right;
+    /* float: right; */
     width: 80%;
     min-width: 252px;
       min-height: 54px;
@@ -214,7 +282,7 @@ header.masthead .intro-text .intro-heading {
       font-size: 12px;
       font-weight: 700;
       padding: 1rem 3rem;
-      margin-right: 50px;
+      /* margin-right: 50px; */
       letter-spacing: 3px;
       font-family: "Azo Sans", sans-serif;
       font-size: 12px;
