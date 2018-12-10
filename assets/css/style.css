@@ -242,11 +242,7 @@ nav.navbar.shrink {
 header.masthead {
   text-align: center;
   color: #182f46;
-  background-image:  grayscale(100%); 
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+
 }
 
 header.masthead .intro-text {
