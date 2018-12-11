@@ -283,6 +283,13 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   /* font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
 }
+
+/* Fix to bug of header text not being readbale on */
+.intro-heading {
+    margin-right: 5%;
+    margin: 5%;
+}
+
 /* Heading background */
 
 #buttonwrapper{
