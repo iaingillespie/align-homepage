@@ -8,6 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     text-transform: none;
+    overflow-x: hidden 
+
+}
+
+html{
+    overflow-x: hidden 
 }
 
 #platfromtext{
@@ -189,12 +195,11 @@ nav.navbar.shrink {
 
 #mainNav .navbar-toggler {
   font-size: 12px;
-  /* right: 0; */
+  right: 0;
   /* padding: 13px; */
   text-transform: uppercase;
  
   /* border: 0; */
-  background-color: rgb(205, 52, 71);
 }
 
 
