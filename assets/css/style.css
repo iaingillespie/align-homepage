@@ -129,12 +129,12 @@ nav.navbar.shrink {
 
 @media (max-width: 760px) { 
     #caresimg{
-         width: 100%;
+         width: 80%;
          height: auto;
      }
  
      #etfimage{
-         width: 80%;
+         width: 100%;
          height: auto;
          margin: auto;
  
