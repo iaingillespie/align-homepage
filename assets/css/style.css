@@ -124,6 +124,9 @@ nav.navbar.shrink {
     #logotop{
          margin-top: 100px;
     }
+    header.masthead .intro-text .intro-heading {
+        font-size: 30px;
+    }
 
 }
 
@@ -156,6 +159,9 @@ nav.navbar.shrink {
         width: 100%;
         height: auto;
         margin: auto;
+    }
+    header.masthead .intro-text .intro-heading {
+        font-size: 20px;
     }
 
 }
