@@ -27,8 +27,6 @@ html{
     transition: .2s;
 
 }
-.etfschart{
-}
 
 .lowcase{
     text-transform: none
@@ -84,16 +82,7 @@ nav.navbar.shrink {
     padding: 4px 5px; 
   
 }
-/* Responsive background color */
-@media (max-width: 999px) {
-  nav.navbar {
-    background-color:#1ae7e7;
-      
-        margin: 0px 15px 8px 0;
-        padding: 4px 5px; 
-      
-    }
-}
+
 
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -107,6 +96,7 @@ nav.navbar.shrink {
 /* Nav color */
 .nav-link {
   color: #182f46!important;
+  
 }
 
 /* Nav link hover color */
