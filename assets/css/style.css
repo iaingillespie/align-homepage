@@ -14,7 +14,6 @@ body {
 
 html{
     overflow-x: hidden;
-    
     scroll-behavior: smooth;
       
 }
@@ -41,7 +40,7 @@ html{
          height: auto;
      }
  
-     #etfimage{
+#etfimage{
          width: 100%;
          height: auto;
          margin: auto;
@@ -70,33 +69,24 @@ nav {
 .navbar-brand {
  font-size: 30px;
   color: black!important;
-  
-  
 }
 
 /* SHRINKS NAVBAR */
-nav.navbar.shrink {
-/* background-color: #90e7e7 !important; */
-   
+nav.navbar.shrink {   
     margin: 0px 15px 8px 0;
     padding: 4px 5px; 
-  
 }
 
 
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
-  /* padding: 13px; */
   text-transform: uppercase;
- 
-  /* border: 0; */
-}
+ }
 
 /* Nav color */
 .nav-link {
   color: #182f46!important;
-  
 }
 
 /* Nav link hover color */
@@ -113,7 +103,6 @@ nav.navbar.shrink {
   list-style: none;
 }
 
-/* WELCOME */
 /* Header  */
 header.masthead {
   text-align: center;
@@ -176,6 +165,7 @@ header.masthead .intro-text .intro-heading {
     box-sizing: inherit;
 }
 
+/* Video Button */
 #vidioButton{
     /* float: right; */
     width: 80%;
@@ -246,7 +236,6 @@ header.masthead .intro-text .intro-heading {
 
 #platform {
     background-color:#ffffff !important;
-
 }
 
 
@@ -259,13 +248,15 @@ header.masthead .intro-text .intro-heading {
 
 .team-member {
   margin-bottom: 50px;
-  text-align: center;}
+  text-align: center;
+}
   
 .team-member > h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
+
 .team-member > img{
   width: 225px;
   height: 225px;
@@ -322,7 +313,7 @@ footer {
 
 
 
-
+/* MEDIA QUERIES */
 
 @media (max-width: 375px) { 
     #caresimg{
@@ -342,9 +333,7 @@ footer {
         padding-top: 50px;
         padding-bottom: 100px;
         margin-top: 50px;
-
       }
-
 
 }
 
@@ -363,7 +352,6 @@ footer {
 }
 
 
-/* Responsive Welcome */
 @media (min-width: 768px) {
     header.masthead .intro-text {
       padding-top: 100px;
